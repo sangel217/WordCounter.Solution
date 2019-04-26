@@ -15,8 +15,8 @@ The program accepts a word as a string. I choose this as the simplest spec becau
   * Output: hello
 
 The program accepts a sentence as a string. I choose this as the next simplest spec because, again, I want to set the sentence as another object that can be referenced later.
-  * Input: Hello, my name is Sarah.
-  * Output: Hello my name is Sarah.
+  * Input: Hello my name is Sarah
+  * Output: Hello my name is Sarah
 
 The program standardizes the word and sentence to be lower case. I choose this spec so that it would be easier to compare the word and sentence.
   * Input word: Hello ; Input sentence: Hello world.
@@ -26,6 +26,6 @@ The program will split the string sentence into a string array with each word as
   * Input sentence: hello world.
   * Output sentence: "hello", "world"
 
-The program will compare the input word with the sentence word array. I choose this spec so that the program can compare the instances of the input word that matches directly with a word in the sentence.
+The program will compare the input word with the sentence word array and return an integer. I choose this spec so that the program can compare the instances of the input word that matches directly with a word in the sentence.
   * Input word: hello ; Input sentence: hello world
   * Output: 1
