@@ -23,7 +23,7 @@ The program standardizes the word and sentence to be lower case. I choose this s
   * Output word: hello ; Output sentence: hello world.
 
 The program will split the string sentence into a string array with each word as a string element. I choose this spec so that I could compare the input word to the individual words in the input sentence.
-  * Input sentence: hello world.
+  * Input sentence: hello world
   * Output sentence: "hello", "world"
 
 The program will compare the input word with the sentence word array and return an integer. I choose this spec so that the program can compare the instances of the input word that matches directly with a word in the sentence.

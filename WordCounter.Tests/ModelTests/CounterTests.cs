@@ -55,5 +55,16 @@ namespace WordCounter.Tests
       string expected = "hello my name is sarah";
       Assert.AreEqual(expected, result);
     }
+
+    [TestMethod]
+    public void MakeWordArray_ReturnWordArrayOfSentence_StringArray()
+    {
+      string inputWord = "hello";
+      string sentence = "hello my name is sarah";
+      Counter newObject = new Counter(inputWord, sentence);
+      string[] myArray = newObject.MakeWordArray();
+      string[] expected = {"hello", "my", "name", "is", "sarah"};
+      CollectionAssert.AreEqual(expected, myArray);
+    }
   }
 }

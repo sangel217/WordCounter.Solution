@@ -30,5 +30,10 @@ namespace WordCounter.Models
     {
       return _sentence.ToLower();
     }
+
+    public string[] MakeWordArray()
+    {
+      return _sentence.Split(' ');
+    }
   }
 }
