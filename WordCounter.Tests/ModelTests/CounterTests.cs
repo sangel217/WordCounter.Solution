@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordCounter.Models;
+using System.Collections.Generic;
 
 namespace WordCounter.Tests
 {
@@ -65,6 +66,16 @@ namespace WordCounter.Tests
       string[] myArray = newObject.MakeWordArray();
       string[] expected = {"hello", "my", "name", "is", "sarah"};
       CollectionAssert.AreEqual(expected, myArray);
+    }
+
+    [TestMethod]
+    public void CompareWordAndArray_ReturnIntegers_Integer()
+    {
+      string inputWord = "hello";
+      string sentence = "hello my name is sarah";
+      Counter newObject = new Counter(inputWord, sentence);
+      Assert.AreEqual(1, newObject.CompareWordAndArray());
+
     }
   }
 }
