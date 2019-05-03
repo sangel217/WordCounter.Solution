@@ -35,5 +35,17 @@ namespace WordCounter.Models
     {
       return _sentence.Split(' ');
     }
+
+    public bool CompareWordAndArray(string word)
+    {
+      // string[] splitArray = _sentence.Split(' ');
+      // foreach(string splitWord in splitArray)
+      // {
+      //   if(_word == splitWord)
+      //   {
+      //     return 1;
+      //   }
+      // }
+    }
   }
 }

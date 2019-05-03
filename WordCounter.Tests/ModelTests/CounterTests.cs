@@ -69,12 +69,12 @@ namespace WordCounter.Tests
     }
 
     [TestMethod]
-    public void CompareWordAndArray_ReturnIntegers_Integer()
+    public void CompareWordAndArray_ReturnIntegers_True()
     {
       string inputWord = "hello";
       string sentence = "hello my name is sarah";
-      Counter newObject = new Counter(inputWord, sentence);
-      Assert.AreEqual(1, newObject.CompareWordAndArray());
+      bool b = sentence.CompareWordAndArray(inputWord);
+      Assert.AreEqual(true, b);
 
     }
   }
