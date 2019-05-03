@@ -36,16 +36,19 @@ namespace WordCounter.Models
       return _sentence.Split(' ');
     }
 
-    public bool CompareWordAndArray(string word)
+    public int CompareWordAndArray()
     {
-      // string[] splitArray = _sentence.Split(' ');
-      // foreach(string splitWord in splitArray)
-      // {
-      //   if(_word == splitWord)
-      //   {
-      //     return 1;
-      //   }
-      // }
+      int total = 0;
+      string word = _word;
+      string sentence = _sentence;
+      if (sentence.Contains(word))
+      {
+        return total+= 1;
+      }
+      else
+      {
+        return total;
+      }
     }
   }
 }
