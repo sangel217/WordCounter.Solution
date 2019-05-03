@@ -29,3 +29,23 @@ The program will split the string sentence into a string array with each word as
 The program will compare the input word with the sentence word array and return an integer. I choose this spec so that the program can compare the instances of the input word that matches directly with a word in the sentence.
   * Input word: hello ; Input sentence: hello world
   * Output: 1
+
+## Setup
+Download .NET Core 2.2.103 SDK and install it. Download Mono and install it.
+* Clone https://github.com/sangel217/WordCounter.Solution
+* Change into the work directory $ cd WordCounter.Solution
+* Run following commands: $ dotnet restore $ dotnet build $ dotnet run
+* Copy local host address into web browser
+* Follow links and instructions on the website
+
+## Technologies Used
+C#
+.NET Core App 2.2.103 & ASP.NET Core
+Atom
+Git
+Github
+
+## Legal
+
+Copyright (c) 2019 Sarah Angel All Rights Reserved.
+This software is licensed under the MIT license.
