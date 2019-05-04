@@ -15,3 +15,8 @@
 /Users/macbookpro/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.csproj.CopyComplete
 /Users/macbookpro/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.dll
 /Users/macbookpro/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.pdb
+/Users/macbookpro/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/WordCounter.Views.dll
+/Users/macbookpro/Desktop/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.2/WordCounter.Views.pdb
+/Users/macbookpro/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.RazorAssemblyInfo.cache
+/Users/macbookpro/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.RazorAssemblyInfo.cs
+/Users/macbookpro/Desktop/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.2/WordCounter.Tests.RazorTargetAssemblyInfo.cache

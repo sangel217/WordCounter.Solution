@@ -22,3 +22,4 @@
 /Users/macbookpro/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.RazorTargetAssemblyInfo.cs
 /Users/macbookpro/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.Views.pdb
 /Users/macbookpro/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.csproj.CopyComplete
+/Users/macbookpro/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/Razor/Views/Counters/New.g.cshtml.cs
