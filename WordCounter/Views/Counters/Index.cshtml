@@ -1,0 +1,20 @@
+@using WordCounter.Models;
+@using System;
+
+@{
+  Layout = "_Layout";
+}
+
+<h1>Your results!</h1>
+@if(@Model.CompareWordAndArray(@Model.GetCounterWord. @Model.GetCounterSentence)==0)
+{
+  <h4>You have no word matches.</h4>
+}
+else
+{
+  <h3>Input word: @Model.GetCounterWord()</h3>
+  <h3>Input sentence: @Model.GetCounterSentence()</h3>
+
+  <h4>Your word appears @Model.CompareWordAndArray(@Model.GetCounterWord(), @Model.GetCounterSentence()) in your sentence.</h4>
+}
+<p><a href="/">Back home</a></p>

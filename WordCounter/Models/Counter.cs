@@ -5,6 +5,7 @@ namespace WordCounter.Models
     private string _word;
     private string _sentence;
 
+
     public Counter (string word, string sentence)
     {
       _word = word;
