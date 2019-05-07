@@ -40,16 +40,17 @@ namespace WordCounter.Models
     public int CompareWordAndArray()
     {
       int total = 0;
-      string word = _word;
-      string sentence = _sentence;
-      if (sentence.Contains(word))
+      string wordInput = _word.ToLower();
+      string newSentence = _sentence.ToLower();
+      string[] sentence = newSentence.Split(' ');
+      foreach (string word in sentence)
       {
-        return total+= 1;
+        if (word == wordInput)
+        {
+           total+= 1;
+        }
       }
-      else
-      {
-        return total;
-      }
+      return total;
     }
   }
 }
